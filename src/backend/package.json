@@ -1,0 +1,23 @@
+{
+  "name": "megaperabot-backend",
+  "version": "1.0.0",
+  "description": "Backend API untuk sistem manajemen stok MEGA PERABOT",
+  "main": "server-sqlite.js",
+  "scripts": {
+    "start": "node server-sqlite.js",
+    "dev": "nodemon server-sqlite.js",
+    "init-db": "node init-db.js",
+    "test": "node test-connection.js"
+  },
+  "keywords": ["express", "sqlite", "inventory", "api"],
+  "author": "MEGA PERABOT",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
